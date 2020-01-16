@@ -811,6 +811,10 @@ header.header-area.page {
     color: #383838;
 }
 
+.accordion.course .subtitle>button[aria-expanded="true"]:after {
+    color: #383838
+}
+
 /* reledet course css */
 .releted-course {
     margin-top: 75px;
