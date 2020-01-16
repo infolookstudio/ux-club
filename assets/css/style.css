@@ -1291,15 +1291,16 @@ header.header-area.page {
 .accordion.course button.btn.btn-link {
     color: #383838;
     border-color: transparent;
-    padding: 12px 0;
+    padding: 17px 0;
     font-weight: 500;
 }
 
 .accordion.course .card {
     border-color: transparent;
-    background: #f4f4f4;
+    background: #f6f6f6;
     margin: 5px 0px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .accordion.course .card .card-header {
