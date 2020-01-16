@@ -607,6 +607,10 @@ header.header-area.page {
     margin-top: 25px;
 }
 
+.site-btn.course:hover {
+    background: #9c0333;
+}
+
 .course-info {
     text-align: center;
 }
@@ -670,7 +674,7 @@ header.header-area.page {
 .single-video-left .title {
     font-size: 18px;
     font-weight: 500;
-    color: #414141;
+    color: #555;
 }
 
 .site-btn.preview {
@@ -739,7 +743,7 @@ header.header-area.page {
 }
 
 .accordion .btn-link {
-    color: #292222;
+    color: #383838;
     font-weight: 700;
     padding: 0;
     font-size: 20px;
@@ -1285,7 +1289,7 @@ header.header-area.page {
 }
 
 .accordion.course button.btn.btn-link {
-    color: #484848;
+    color: #383838;
     border-color: transparent;
     padding: 12px 0;
     font-weight: 500;
