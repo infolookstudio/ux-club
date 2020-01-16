@@ -674,7 +674,7 @@ header.header-area.page {
 .single-video-left .title {
     font-size: 18px;
     font-weight: 400;
-    color: #414141;
+    color: #505050;
 }
 
 .site-btn.preview {
@@ -682,9 +682,9 @@ header.header-area.page {
     width: 112px;
     display: inline-block;
     height: 40px;
-    color: #797979;
+    color: #505050;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 40px;
     border-radius: 40px;
@@ -792,7 +792,10 @@ header.header-area.page {
     top: 50%;
     transform: translate(0px, -50%);
     font-size: 20px;
+    font-weight: 700;
 }
+
+
 
 .accordion .subtitle>button[aria-expanded="true"]:after {
     content: "\eab9";
@@ -805,21 +808,7 @@ header.header-area.page {
 }
 
 .accordion.course .btn-link {
-    color: #484848;
-}
-
-.accordion.course .subtitle>button::after {
-    content: "\eab9";
-}
-
-.accordion.course .subtitle>button[aria-expanded="true"]:after {
-    content: "\eab2";
-    color: #484848
-}
-
-.accordion.course .subtitle>button[aria-expanded="true"],
-.accordion.course .subtitle>button:hover {
-    color: #E30045;
+    color: #383838;
 }
 
 /* reledet course css */
