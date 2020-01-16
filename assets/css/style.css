@@ -649,10 +649,10 @@ header.header-area.page {
 
 .single-videos {
     background: #fafafa;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     display: flex;
 }
 
@@ -673,7 +673,7 @@ header.header-area.page {
 
 .single-video-left .title {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     color: #414141;
 }
 
