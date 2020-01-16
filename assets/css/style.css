@@ -933,6 +933,7 @@ header.header-area.page {
 .user-profile .col-md-3 {
     padding-left: 0px;
 }
+
 .user-profile .col-md-9 {
     padding-right: 0px;
 }
@@ -1119,6 +1120,7 @@ header.header-area.page {
     line-height: 24px;
     margin-right: 11px;
 }
+
 /*login-css*/
 
 
@@ -1245,6 +1247,7 @@ header.header-area.page {
 .bkash.active {
     display: block;
 }
+
 .rocket.active {
     display: block;
 }
@@ -1265,7 +1268,7 @@ header.header-area.page {
 
 .site-button {
     position: relative;
-    z-index: 999;
+    z-index: 100;
 }
 
 .try-thisfield a.logs1:hover {
@@ -1298,4 +1301,190 @@ header.header-area.page {
 .accordion.course .card .card-header {
     border-color: transparent;
     border-top: 0px !important;
+}
+
+.login-us input:focus {
+    border: 1px solid red;
+}
+
+.login-us input {
+    border: 1px solid transparent;
+}
+
+/* sidebar start */
+.sidebarlists {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 977;
+    padding: 20px;
+    transition: .3s;
+    right: -250px;
+}
+
+.sidebarlists ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebarlists ul li {
+    display: block;
+}
+
+.sidebarlists ul li a {
+    color: #1b2b3a;
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    margin: 15px 0;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    transition: all .3s;
+    position: relative;
+}
+
+.sidebarlists ul li a:hover {
+    padding-left: 8px;
+    color: #f37022;
+}
+
+.sidebarlists ul li a::after {
+    transition: all .3s;
+}
+
+.sidebarlists ul li a:hover::after {
+    height: 100%;
+    width: 4px;
+    content: "";
+    background: #F37022;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -5px;
+}
+
+.crossbars {
+    margin-bottom: 10px;
+}
+
+.crossbars button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.crossbars button {
+    position: relative;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+}
+
+.crossbars button::after,
+.crossbars button::before {
+    height: 3px;
+    width: 20px;
+    background: #1b2b3a;
+    content: "";
+    left: 0;
+    bottom: 10px;
+    position: absolute;
+    transform: rotate(135deg);
+    transition: all .3s;
+}
+
+.crossbars button::before {
+    transform: rotate(-135deg);
+}
+
+.crossbars button:hover::after,
+.crossbars button:hover::before {
+    width: 32px;
+}
+
+.overlayed {
+    background: #24384C;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 944;
+    opacity: .3;
+    left: 0;
+    top: 0;
+    transition: .3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sidebarlists.actives {
+    right: 0;
+}
+
+.overlayed.actives {
+    visibility: visible;
+    opacity: .5;
+}
+
+.sideicon {
+    display: none;
+}
+
+/* sidebar END */
+
+.navigation__checkbox {
+    display: none;
+}
+
+.navigation__button {
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
+.navigation__icon {
+    position: relative;
+    margin-top: 5px;
+}
+
+.navigation__icon,
+.navigation__icon::before,
+.navigation__icon::after {
+    width: 26px;
+    height: 3px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.page .navigation__icon,
+.page .navigation__icon::before,
+.page .navigation__icon::after {
+    background-color: #15202B;
+}
+
+.navigation__icon::before,
+.navigation__icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .1s;
+}
+
+.navigation__icon::before {
+    top: -10px;
+}
+
+.navigation__icon::after {
+    top: 10px;
+}
+
+.navigation__button:hover .navigation__icon:before {
+    top: -13px;
+}
+
+.navigation__button:hover .navigation__icon:after {
+    top: 13px;
 }

@@ -74,6 +74,41 @@
 }
 
 @media (max-width: 767px) {
+
+    .navigation__button {
+        position: relative;
+        z-index: 99;
+    }
+
+    .mainmenu {
+        display: none;
+    }
+
+    .sideicon {
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: 50%;
+    }
+
+    .sidebarlists ul li ul a {
+        font-size: 14px;
+        padding: 5px 0;
+        margin: 0px 0;
+    }
+
+    .sidebarlists ul li a {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .sidebarlists ul li:not(:last-child) {
+        border-bottom: 1px solid #ddd;
+    }
+
+    .sidebarlists ul li ul li:not(:last-child) {
+        border-bottom: 1px solid #ddd;
+    }
+
     .header-left {
         justify-content: center;
     }
@@ -97,10 +132,6 @@
 
     .single-post {
         height: 400px;
-    }
-
-    .mainmenu {
-        display: none;
     }
 
     .mobile-menu {
@@ -371,6 +402,26 @@
     }
 }
 
+@media (max-width: 390px) {
+    .header-buttons {
+        padding-left: 50px;
+    }
+
+    .navigation__icon,
+    .navigation__icon::before,
+    .navigation__icon::after {
+        height: 2px;
+        width: 22px;
+    }
+
+    .navigation__icon::before {
+        top: -7px;
+    }
+
+    .navigation__icon::after {
+        top: 7px;
+    }
+}
 @media (max-width: 375px) {
     .course-img {
         height: 200px;
@@ -480,7 +531,7 @@
 
     .header-buttons {
         padding-left: 30px;
-        margin-top: -38px;
+        margin-top: -32px;
     }
 
     .site-logo img {

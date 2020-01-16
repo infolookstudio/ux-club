@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="assets/css/animate-headline.css">
     <!--====== Default css ======-->
     <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/slicknav.min.css">
     <!--====== style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
     <!--====== responsive css ======-->
@@ -34,6 +33,8 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 <body>
+
+    <div class="overlayed"></div>
 
     <!-- header area start -->
     <header class="header-area">
@@ -56,7 +57,12 @@
                                 <li><a href="#">We are</a></li>
                             </ul>
                         </div>
-                        <div class="mobile-menu"></div>
+                        <div class="sideicon">
+                            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+                            <label for="navi-toggle" class="navigation__button">
+                                <span class="navigation__icon">&nbsp;</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 my-auto">
@@ -66,7 +72,7 @@
                         <a href="#" data-toggle="modal" data-target="#exampleModalCenter2"
                             class="site-button borderd">Join Now</a>
                     </div>
-
+                    
                     <div class="for-loginmethod">
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
@@ -167,6 +173,26 @@
         </div>
     </header>
     <!-- header area end -->
+
+    <!-- hamburger menu start -->
+    <div class="hamburger-menu">
+        <div class="sidebarlists">
+            <div class="crossbars">
+                <button></button>
+            </div>
+            <ul>
+                <li><a href="inner-page-before.html">Learn</a>
+                    <ul>
+                        <li><a href="#">Submenu 1</a></li>
+                        <li><a href="#">Submenu 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="inner-page-after.html">Pro Content</a></li>
+                <li><a href="#">We are</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- hamburger menu end -->
 
     <!-- hero area start -->
     <section class="hero-area bg_img" data-background="assets/images/hero-bg.jpg">
@@ -366,7 +392,6 @@
     <!--========= Bootstrap js =========-->
     <script src="assets/js/bootstrap.min.js"></script>
     <!--========= meanmenu js =========-->
-    <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/lightcase.js"></script>
     <script src="assets/js/animate-headline.js"></script>

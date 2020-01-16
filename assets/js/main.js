@@ -15,12 +15,6 @@
 
 	  });
 
-	  // Mobile menu js
-	  $('#navMenu').slicknav({
-	  	prependTo: ".mobile-menu",
-	  	label: ""
-	  });
-
 	  $('select').niceSelect();
 
 	  // Activate lightcase
@@ -34,6 +28,15 @@
 			return bg;
 		});
 	}
+
+	// addclass & removeclass
+	$(".sideicon").on("click", function () {
+		$(".overlayed, .sidebarlists").addClass("actives");
+	});
+
+	$(".overlayed, .crossbars").on("click", function () {
+		$(".sidebarlists, .overlayed").removeClass("actives");
+	});
 
 	$(".rocket-by a.bkashh1").on("click", function () {
 		$("a.bkashh1").addClass("active");

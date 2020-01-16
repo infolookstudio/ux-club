@@ -35,7 +35,7 @@
     <![endif]-->
 
 <body>
-
+    <div class="overlayed"></div>
     <!-- header area start -->
     <header class="header-area page">
         <div class="container">
@@ -57,7 +57,12 @@
                                 <li><a href="#">We are</a></li>
                             </ul>
                         </div>
-                        <div class="mobile-menu"></div>
+                        <div class="sideicon">
+                            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+                            <label for="navi-toggle" class="navigation__button">
+                                <span class="navigation__icon">&nbsp;</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 my-auto">
@@ -99,7 +104,7 @@
                                                 <div class="repare-pass">
                                                     <div class="log-into">
                                                         <div class="try-thisfield">
-                                                            <a href="" class="logs1">Log In</a>
+                                                            <a href="profile-1.html" class="logs1">Log In</a>
                                                             <a href="" class="forgot1">Forgot Password?</a>
                                                         </div>
                                                         <span>Don't have an membership? <a href="">JOIN</a></span>
@@ -146,7 +151,7 @@
                                                 <div class="repare-pass">
                                                     <div class="log-into">
                                                         <div class="try-thisfield">
-                                                            <a href="" data-toggle="modal"
+                                                            <a href="profile-2.html" data-toggle="modal"
                                                                 data-target="#exampleModalCenter3"
                                                                 class="logs1 next-hide">Sing Up</a>
                                                         </div>
@@ -167,6 +172,26 @@
         </div>
     </header>
     <!-- header area end -->
+
+    <!-- hamburger menu start -->
+    <div class="hamburger-menu">
+        <div class="sidebarlists">
+            <div class="crossbars">
+                <button></button>
+            </div>
+            <ul>
+                <li><a href="inner-page-before.html">Learn</a>
+                    <ul>
+                        <li><a href="#">Submenu 1</a></li>
+                        <li><a href="#">Submenu 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="inner-page-after.html">Pro Content</a></li>
+                <li><a href="#">We are</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- hamburger menu end -->
 
     <!-- inner course preview start -->
     <section class="inner-course-preview">
