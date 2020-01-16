@@ -648,7 +648,7 @@ header.header-area.page {
 }
 
 .single-videos {
-    background: #F8F8F8;
+    background: #fafafa;
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
@@ -674,7 +674,7 @@ header.header-area.page {
 .single-video-left .title {
     font-size: 18px;
     font-weight: 500;
-    color: #555;
+    color: #414141;
 }
 
 .site-btn.preview {
@@ -1297,7 +1297,7 @@ header.header-area.page {
 
 .accordion.course .card {
     border-color: transparent;
-    background: #F8F8F8;
+    background: #f4f4f4;
     margin: 5px 0px;
     padding-left: 15px;
 }
