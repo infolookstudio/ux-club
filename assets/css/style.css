@@ -241,10 +241,14 @@ li.has-submenu {
     color: #FFC600;
 }
 
+.cd-headline.clip span {
+    padding: 0;
+}
+
 /* single couse  */
 
 .courses-area {
-    padding-top: 80px;
+    padding-top: 60px;
     background: #F6F6F6;
 }
 
@@ -522,52 +526,25 @@ header.header-area.page {
     height: 420px;
     position: relative;
     border-radius: 10px 0px 0px 10px;
+    display: block;
 }
 
-.video-button {
+.inner-course span {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 70px;
-    width: 70px;
-    text-align: center;
-    line-height: 74px;
-    font-size: 24px;
-    z-index: 1;
-    color: #516279;
-    transition: .2s;
-}
-
-.video-button::after {
-    background: #fff;
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: .5;
-    border-radius: 50%;
-    transition: .2s;
-}
-
-.video-button i {
-    margin-left: 4px;
+    z-index: 99;
 }
 
 .inner-course::before {
     border-radius: 10px 0px 0px 10px;
+    opacity: 0;
+    transition: .2s;
 }
 
-.video-button:hover::after {
-    background: #E30045;
-    opacity: 1;
-}
-
-.video-button:hover {
-    color: #fff;
+.inner-course:hover::before {
+    opacity: .4;
 }
 
 .course-preview-details {
@@ -823,20 +800,29 @@ header.header-area.page {
     color: #E30045;
 }
 
+.accordion.course .btn-link {
+    color: #484848;
+}
+
+.accordion.course .subtitle>button::after {
+    content: "\eab9";
+}
+
+.accordion.course .subtitle>button[aria-expanded="true"]:after {
+    content: "\eab2";
+    color: #484848
+}
+
+.accordion.course .subtitle>button[aria-expanded="true"],
+.accordion.course .subtitle>button:hover {
+    color: #E30045;
+}
+
 /* reledet course css */
 .releted-course {
     margin-top: 75px;
     padding: 50px 0;
     background: #F8F8F8;
-}
-
-.releted-course .section-heading .title {
-    font-size: 25px;
-    font-weight: 900;
-}
-
-.releted-course .single-course .course-img {
-    margin: 0;
 }
 
 .inner-course-preview::after {
@@ -999,12 +985,10 @@ header.header-area.page {
     display: none;
 }
 
-/* saddam vai css */
 /*login-css*/
 .for-loginmethod .modal-dialog {
     width: 400px;
 }
-
 
 .for-loginmethod .modal-header {
     display: -ms-flexbox;
@@ -1017,14 +1001,10 @@ header.header-area.page {
     border-bottom: 0px;
 }
 
-
-
-
 .modal-body.customlogooo {
     padding: 0 0 !important;
     padding-bottom: 54px !important;
 }
-
 
 .try-thisfield.got.got-bg a {
     width: 164px;
@@ -1037,10 +1017,6 @@ header.header-area.page {
     margin-top: 48px;
 }
 
-
-
-
-
 .next-logo {
     background: url(../img/logoneed-bg.png);
     height: 136px;
@@ -1049,8 +1025,6 @@ header.header-area.page {
     justify-content: center;
     object-fit: cover;
 }
-
-
 
 .for-loginmethod .modal-body {
     position: relative;
@@ -1074,16 +1048,9 @@ header.header-area.page {
     outline: 0;
 }
 
-
-
-
-
-
-
-
 .login-content h4 {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 800;
     color: #2c2d35;
     margin-bottom: 22px;
 }
@@ -1105,7 +1072,7 @@ header.header-area.page {
     padding: 10px 14px;
     margin-top: 12px;
     border-radius: 6px;
-    color: #8f8f8f;
+    color: #2C2D35;
     font-weight: 500;
     font-size: 16px;
 }
@@ -1152,16 +1119,11 @@ header.header-area.page {
     line-height: 24px;
     margin-right: 11px;
 }
-
-
 /*login-css*/
 
 
 
-
-
 /*successful-css*/
-
 .login-content.next-h4 p {
     font-size: 15px;
     font-weight: 400;
@@ -1212,27 +1174,14 @@ header.header-area.page {
     box-shadow: 0px 0px 2px #a0a0a0;
 }
 
-
-
-
-
-
-
-
-
 .send-money.owl-carousel .owl-nav i {
     font-size: 27px;
     color: #a0a0a0;
 }
 
-
-
-
 .send-money .owl-dots {
     display: none;
 }
-
-
 
 .price span {
     font-size: 29px;
@@ -1300,7 +1249,6 @@ header.header-area.page {
     display: block;
 }
 
-
 .rocket-by a {
     position: relative;
 }
@@ -1318,4 +1266,36 @@ header.header-area.page {
 .site-button {
     position: relative;
     z-index: 999;
+}
+
+.try-thisfield a.logs1:hover {
+    background: #c50542;
+}
+
+.modal-header span {
+    font-size: 28px;
+    line-height: 0;
+}
+
+.price span {
+    margin-top: 0;
+}
+
+.accordion.course button.btn.btn-link {
+    color: #484848;
+    border-color: transparent;
+    padding: 12px 0;
+    font-weight: 500;
+}
+
+.accordion.course .card {
+    border-color: transparent;
+    background: #F8F8F8;
+    margin: 5px 0px;
+    padding-left: 15px;
+}
+
+.accordion.course .card .card-header {
+    border-color: transparent;
+    border-top: 0px !important;
 }
