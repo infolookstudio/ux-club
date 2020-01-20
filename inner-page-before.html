@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/lightcase.css">
+    <link rel="stylesheet" href="assets/css/animate-headline.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <!--====== Default css ======-->
     <link rel="stylesheet" href="assets/css/default.css">
     <!--====== style css ======-->
@@ -216,11 +218,11 @@
                                 <li><i class="icofont-star"></i> Based on Professional Guide</li>
                                 <li><i class="icofont-coffee-cup"></i> Course for Beginner</li>
                                 <li><i class="icofont-badge"></i> Includes certificate on this course</li>
-                                <li><i class="icofont-notification"></i> Fee Tk. 3000</li>
+                                <li><i class="icofont-taka"></i> Fee Tk. 3000</li>
                             </ul>
                             <a href="#" class="site-btn course" data-toggle="modal"
                                 data-target="#exampleModalCenter3">Get full Course</a>
-                            <div class="for-loginmethod">
+                            <div class="for-loginmethod payment-option">
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -235,50 +237,69 @@
                                             <div class="modal-body">
                                                 <div class="log-inpagess">
                                                     <div class="login-content next-h4">
-                                                        <h4>Pay the Course fee*</h4>
-                                                        <div class="loginforms1">
-                                                            <div class="price">
-                                                                <span> <img src="assets/images/taka.png" alt=""> :
-                                                                    3000</span>
-                                                            </div>
-                                                            <div class="payment-gatway">
-                                                                <form action="#">
-                                                                    <div class="rocket-by">
-                                                                        <p>Pay course fee* via
-                                                                            <a href="#" class="bkashh1 active">bKash</a>
-                                                                            or
-                                                                            <a href="#" class="rocketts">Rocket</a>
-                                                                        </p>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <h4>Pay the course fee* to add
+                                                                    courses to your profile</h4>
+                                                                <div class="loginforms1">
+                                                                    <div class="price">
+                                                                        <span><i class="icofont-taka"></i> 1500</span>
                                                                     </div>
-                                                                    <div class="login-us trxid bkash active">
-                                                                        <lable for="bkash">
-                                                                            <img src="assets/images/bkash.png" alt="">
-                                                                        </lable>
-                                                                        <input type="text" name="bkash"
-                                                                            placeholder="Enter TrxID to Confirm">
+                                                                    <div class="payment-gatway">
+                                                                        <div class="rocket-by">
+                                                                            <p>Pay course fee* via
+                                                                                <a href="#"
+                                                                                    class="bkashh1 active">bKash</a>
+                                                                                or
+                                                                                <a href="#"
+                                                                                    class="rocketts">Rocket</a>
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="login-us trxid bkash active">
+                                                                            <form action="">
+                                                                                <lable for="bkash">
+                                                                                    <img src="assets/images/bkash.png"
+                                                                                        alt="">
+                                                                                </lable>
+                                                                                <div
+                                                                                    class="try-thisfield got red-submit">
+                                                                                <input type="text" name="bkash"
+                                                                                    placeholder="Enter TrxID :">
+                                                                                    
+                                                                                        <button type="submit"
+                                                                                            class="logs1">Submit</button>
+                                                                                    </div>
+                                                                            </form>
+                                                                        </div>
+                                                                        <div class="login-us trxid rocket">
+                                                                            <form action="">
+                                                                                <lable for="rocket"><img
+                                                                                        src="assets/images/rocketss.png"
+                                                                                        alt="">
+                                                                                </lable>
+                                                                                <div
+                                                                                    class="try-thisfield got red-submit">
+                                                                                <input type="text" name="rocket"
+                                                                                    placeholder="Enter TrxID :">
+                                                                    
+                                                                                    <button type="submit" class="logs1">Submit</button>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="login-us trxid rocket">
-                                                                        <lable for="rocket"><img
-                                                                                src="assets/images/rocketss.png" alt="">
-                                                                        </lable>
-                                                                        <input type="text" name="rocket"
-                                                                            placeholder="Enter TrxID to Confirm">
-                                                                    </div>
-                                                                </form>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="repare-pass">
-                                                            <div class="log-into">
-                                                                <div class="try-thisfield got red-submit">
-                                                                    <a href="" data-toggle="modal"
-                                                                        data-target="#exampleModalCenter4"
-                                                                        class="logs1">Submit</a>
                                                                 </div>
-                                                                <div class="call-usw">
-                                                                    <p>Call for Help : <a href="tel:01743 196 240">01743
-                                                                            196 240</a></p>
+                                                                <div class="repare-pass">
+                                                                    <div class="log-into">
+                                                                        <div class="call-usw">
+                                                                            <p>Call for Help : <a
+                                                                                    href="tel:01743 196 240">01743
+                                                                                    196 240</a></p>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <img src="assets/images/offer.png" alt="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -307,18 +328,20 @@
                             <h4>Start Learning</h4>
                             <span>22 Video Class</span>
                         </div>
-                        <div class="accordion course" id="courseExample">
-                            <div class="card">
-                                <div class="card-header" id="coursHeadingOne">
-                                    <h5 class="mb-0 subtitle">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
-                                            data-target="#curseOne" aria-expanded="false" aria-controls="curseOne">
+                        <div class="panel-group accordion course" id="accordion" role="tablist"
+                            aria-multiselectable="true">
+                            <div class="panel panel-default card">
+                                <div class="panel-heading" role="tab" id="coursHeadingOne">
+                                    <h4 class="panel-title subtitle">
+                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseOne"
+                                            aria-expanded="true"
+                                            aria-controls="curseOne">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </button>
-                                    </h5>
+                                        </a>
+                                    </h4>
                                 </div>
-                                <div id="curseOne" class="collapse show" aria-labelledby="coursHeadingOne"
-                                    data-parent="#courseExample">
+                                <div id="curseOne" class="panel-collapse collapse in show" role="tabpanel"
+                                    aria-labelledby="coursHeadingOne">
                                     <div class="card-body">
                                         <div class="course-videos">
                                             <div class="single-videos">
@@ -389,17 +412,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="coursHeadingTwo">
-                                    <h5 class="mb-0 subtitle">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
-                                            data-target="#courseTwo" aria-expanded="false" aria-controls="courseTwo">
+                            <div class="panel panel-default card">
+                                <div class="panel-heading" role="tab" id="coursHeadingTwo">
+                                    <h4 class="panel-title subtitle">
+                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseTwo"
+                                            aria-expanded="true"
+                                            aria-controls="curseTwo">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </button>
-                                    </h5>
+                                        </a>
+                                    </h4>
                                 </div>
-                                <div id="courseTwo" class="collapse show" aria-labelledby="coursHeadingTwo"
-                                    data-parent="#courseExample">
+                                <div id="curseTwo" class="panel-collapse collapse in show" role="tabpanel"
+                                    aria-labelledby="coursHeadingTwo">
                                     <div class="card-body">
                                         <div class="course-videos">
                                             <div class="single-videos">
@@ -422,17 +446,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="coursHeadingThree">
-                                    <h5 class="mb-0 subtitle">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
-                                            data-target="#curseThree" aria-expanded="false" aria-controls="curseThree">
+                            <div class="panel panel-default card">
+                                <div class="panel-heading" role="tab" id="coursHeadingThree">
+                                    <h4 class="panel-title subtitle">
+                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseThree"
+                                            aria-expanded="true"
+                                            aria-controls="curseThree">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </button>
-                                    </h5>
+                                        </a>
+                                    </h4>
                                 </div>
-                                <div id="curseThree" class="collapse show" aria-labelledby="coursHeadingThree"
-                                    data-parent="#courseExample">
+                                <div id="curseThree" class="panel-collapse collapse in show" role="tabpanel"
+                                    aria-labelledby="coursHeadingThree">
                                     <div class="card-body">
                                         <div class="course-videos">
                                             <div class="single-videos">
@@ -455,50 +480,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="headingFour">
-                                    <h5 class="mb-0 subtitle">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
-                                            data-target="#curseFour" aria-expanded="false" aria-controls="curseOne">
+                            <div class="panel panel-default card">
+                                <div class="panel-heading" role="tab" id="coursHeadingFour">
+                                    <h4 class="panel-title subtitle">
+                                        <a class="btn btn-link" role="button" data-toggle="collapse" href="#curseFour"
+                                            aria-expanded="true"
+                                            aria-controls="curseFour">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </button>
-                                    </h5>
+                                        </a>
+                                    </h4>
                                 </div>
-                                <div id="curseFour" class="collapse show" aria-labelledby="headingFour"
-                                    data-parent="#courseExample">
-                                    <div class="card-body">
-                                        <div class="course-videos">
-                                            <div class="single-videos">
-                                                <div class="single-video-left">
-                                                    <a href="#" class="play-btn"><i class="icofont-play-alt-1"></i></a>
-                                                    <div class="content">
-                                                        <a href="#">
-                                                            <h5 class="title">Learn all the Basic tools of Photoshop for
-                                                                UI Design</h5>
-                                                        </a>
-                                                        <span class="video-duratio"><i class="icofont-clock-time"></i>
-                                                            5:07min</span>
-                                                    </div>
-                                                </div>
-                                                <div class="single-video-right">
-                                                    <a href="#" class="site-btn preview">Preview</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingFive">
-                                    <h5 class="mb-0 subtitle">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
-                                            data-target="#curseFive" aria-expanded="false" aria-controls="curseFive">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="curseFive" class="collapse show" aria-labelledby="headingFive"
-                                    data-parent="#courseExample">
+                                <div id="curseFour" class="panel-collapse collapse in show" role="tabpanel"
+                                    aria-labelledby="coursHeadingFour">
                                     <div class="card-body">
                                         <div class="course-videos">
                                             <div class="single-videos">
@@ -606,46 +599,56 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="single-course mt-30">
-                        <div class="course-img">
-                            <img src="assets/images/course-2.jpg" alt="Course 1">
+                <div class="col-lg-12">
+                    <div class="related-course-carousel owl-carousel">
+                        <div class="single-course">
+                            <div class="course-img">
+                                <img src="assets/images/course-2.jpg" alt="Course 1">
+                            </div>
+                            <h4 class="title">Executive Design Course</h4>
+                            <p>Learn CV Design, Pitch deck Design,
+                                Infographic and more</p>
+                            <span class="course-meta">
+                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
+                                Class with Project
+                            </span>
                         </div>
-                        <h4 class="title">Executive Design Course</h4>
-                        <p>Learn CV Design, Pitch deck Design,
-                            Infographic and more</p>
-                        <span class="course-meta">
-                            <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
-                            Class with Project
-                        </span>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-course mt-30">
-                        <div class="course-img">
-                            <img src="assets/images/course-3.jpg" alt="Course 1">
+                        <div class="single-course">
+                            <div class="course-img">
+                                <img src="assets/images/course-3.jpg" alt="Course 1">
+                            </div>
+                            <h4 class="title">Executive Design Course</h4>
+                            <p>Learn CV Design, Pitch deck Design,
+                                Infographic and more</p>
+                            <span class="course-meta">
+                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
+                                Class with Project
+                            </span>
                         </div>
-                        <h4 class="title">Executive Design Course</h4>
-                        <p>Learn CV Design, Pitch deck Design,
-                            Infographic and more</p>
-                        <span class="course-meta">
-                            <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
-                            Class with Project
-                        </span>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-course mt-30">
-                        <div class="course-img">
-                            <img src="assets/images/course-4.jpg" alt="Course 1">
+                        <div class="single-course">
+                            <div class="course-img">
+                                <img src="assets/images/course-1.jpg" alt="Course 1">
+                            </div>
+                            <h4 class="title">Executive Design Course</h4>
+                            <p>Learn CV Design, Pitch deck Design,
+                                Infographic and more</p>
+                            <span class="course-meta">
+                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
+                                Class with Project
+                            </span>
                         </div>
-                        <h4 class="title">Executive Design Course</h4>
-                        <p>Learn CV Design, Pitch deck Design,
-                            Infographic and more</p>
-                        <span class="course-meta">
-                            <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
-                            Class with Project
-                        </span>
+                        <div class="single-course">
+                            <div class="course-img">
+                                <img src="assets/images/course-5.jpg" alt="Course 1">
+                            </div>
+                            <h4 class="title">Executive Design Course</h4>
+                            <p>Learn CV Design, Pitch deck Design,
+                                Infographic and more</p>
+                            <span class="course-meta">
+                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
+                                Class with Project
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -662,13 +665,13 @@
                             <img src="assets/images/footer-logo.png" alt="">
                         </a>
                         <div class="tagline">
-                            <h4>Join to be Expert<span>Build your career</span></h4>
+                            <h4>Join to be Expert<span>copyright &copy; 2020 UX Club Bangladesh</span></h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 my-auto">
                     <div class="footer-right">
-                        <a href="tel:01743196240" class="call-button"><span>Call for Help</span> : 01743 196 240</a>
+                        <a href="tel:01743196240" class="call-button"><span>Have any question?</span> : 01743 196 240</a>
                         <a href="#" class="fb-button"><span>Join us on</span> facebook</a>
                     </div>
                 </div>
@@ -683,6 +686,8 @@
     <!--========= meanmenu js =========-->
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/animate-headline.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <!--========= main js =========-->
     <script src="assets/js/main.js"></script>
 </body>

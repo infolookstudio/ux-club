@@ -70,6 +70,15 @@
 		$(".rocket").removeClass("active");
 	});
 
-	
+	// Activate owlCarousel
+	$('.related-course-carousel').owlCarousel({
+		items: 3,
+		loop: false,
+		margin: 20,
+		smartSpeed: 800,
+		nav: true,
+		dots: true,
+		navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+	});
 
 })(jQuery);
