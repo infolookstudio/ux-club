@@ -1528,7 +1528,8 @@ header.header-area.page {
 /* releted course css */
 
 .releted-course .title {
-    font-weight: 600;
+    font-weight: 800;
+    font-weight: 25px;
 }
 
 .related-course-carousel {
