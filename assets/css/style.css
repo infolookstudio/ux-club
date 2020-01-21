@@ -156,12 +156,6 @@ img {
     margin-left: 20px;
 }
 
-.site-button.borderd:hover {
-    color: #fff;
-    background: #ffffff24;
-    border-color: #fff;
-}
-
 .header-area {
     padding: 10px 0;
     position: absolute;
@@ -522,9 +516,9 @@ header.header-area.page {
     border-color: transparent;
 }
 
-.page .site-button.borderd:hover {
-    border-color: #272727;
-    color: #272727;
+.page .site-button.borderd:hover,
+.site-button.borderd:hover {
+    background: #9C0333;
 }
 
 .page .site-button:hover {
@@ -585,6 +579,11 @@ header.header-area.page {
     font-size: 25px;
     font-weight: 900;
     margin-bottom: 30px;
+}
+
+.course-preview-details span i {
+    transform: rotate(180deg);
+    display: inline-block;
 }
 
 .course-info h5 {
@@ -684,7 +683,7 @@ header.header-area.page {
 .single-video-left .title {
     font-size: 18px;
     font-weight: 400;
-    color: #505050;
+    color: #414141;
 }
 
 .site-btn.preview {
@@ -785,7 +784,8 @@ header.header-area.page {
     color: #414141;
     font-size: 16px;
     padding-bottom: 10px;
-    font-family: 'Hind Siliguri',sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
 }
 
 .accordion .card:last-child {
@@ -801,11 +801,19 @@ header.header-area.page {
     content: "\eab2";
     font-family: 'IcoFont';
     position: absolute;
-    right: 10px;
+    right: 0;
     top: 50%;
     transform: translate(0px, -50%);
     font-size: 20px;
     font-weight: 700;
+}
+
+.accordion.course .subtitle>a[aria-expanded="true"]:after {
+    right: 0;
+}
+
+.accordion.course .card-body {
+    font-weight: 400;
 }
 
 .accordion .subtitle>button[aria-expanded="true"]:after {
@@ -1642,4 +1650,4 @@ payment-option .login-us.trxid input {}
 .for-loginmethod.payment-option .modal.fade .modal-dialog {
     -webkit-transform: translate(0, -20px);
     transform: translate(0, -20px);
-    }
+}
