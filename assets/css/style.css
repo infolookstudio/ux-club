@@ -414,7 +414,7 @@ li.has-submenu {
 }
 
 .tagline h4 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 800;
 }
 
@@ -460,7 +460,7 @@ li.has-submenu {
 
 .call-button span {
     color: #676767;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .fb-button {
@@ -474,7 +474,7 @@ li.has-submenu {
 }
 
 .fb-button span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .fb-button:hover {
@@ -1319,7 +1319,7 @@ header.header-area.page {
     color: #383838;
     border-color: transparent;
     padding: 17px 0;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .accordion.course .card {
@@ -1528,7 +1528,7 @@ header.header-area.page {
 /* releted course css */
 
 .releted-course .title {
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .related-course-carousel {
