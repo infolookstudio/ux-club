@@ -2,12 +2,12 @@
     
 }
 @media (max-width: 991px) {
-    .site-button {
+   .header-buttons .site-button {
         padding: 8px 20px;
         font-size: 14px;
     }
 
-    .site-button.borderd {
+    .header-buttons .site-button.borderd {
         margin-left: 15px;
     }
 
@@ -270,6 +270,26 @@
         position: relative;
         z-index: 99;
     }
+
+    .for-loginmethod.payment-option .modal-dialog {
+        width: 600px;
+        max-width: 600px;
+    }
+
+    .payment-option .login-content h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .price span {
+        font-size: 30px;
+        padding: 0px 0;
+        margin-bottom: 5px;
+    }
+
+    .payment-gatway .try-thisfield {
+        margin-top: 25px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -293,8 +313,55 @@
     .footer-logo {
         margin: 0;
     }
+
+    .for-loginmethod.payment-option .modal-dialog {
+        width: 450px;
+        max-width: 450px;
+    }
+
+    .payment-option .login-content h4 {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    .price span {
+        font-size: 24px;
+    }
+
+    .log-inpagess .row {
+        flex-direction: column-reverse;
+    }
+
+    .col.tshirt-img img {
+        width: 35%;
+    }
+
+    .for-loginmethod.payment-option .modal.fade .modal-dialog {
+        transform: translate(0, 5px);
+    }
+
+    .accordion.course .btn.btn-link {
+        padding-right: 15px;
+    }
 }
 
+@media (max-width: 500px) {
+    .for-loginmethod.payment-option .modal-dialog {
+        width: 350px;
+        max-width: 350px;
+    }
+    .related-course-carousel .owl-nav div.owl-next {
+        right: 0;
+    }
+
+    .related-course-carousel .owl-nav div {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        left: 0;
+    }
+}
 @media (max-width: 434px) {
     .hero-area .title {
         font-size: 26px;
@@ -324,11 +391,11 @@
         line-height: 35px;
     }
 
-    .site-button.borderd {
+    .header-buttons .site-button.borderd {
         margin-left: 10px;
     }
 
-    .site-button {
+    .header-buttons .site-button {
         font-size: 12px;
         padding: 5px 15px;
     }
@@ -421,8 +488,19 @@
     .navigation__icon::after {
         top: 7px;
     }
+
+    .call-button span {
+        display: block;
+    }
 }
 @media (max-width: 375px) {
+    .for-loginmethod.payment-option .modal-dialog {
+        width: 315px;
+        max-width: 315px;
+    }
+    .courses-area {
+        padding-top: 40px;
+    }
     .course-img {
         height: 200px;
     }
@@ -523,7 +601,7 @@
         padding-top: 30px;
     }
 
-    .site-button {
+   .header-buttons .site-button {
         border: 1px solid;
         padding: 4px 10px;
         font-size: 11px;

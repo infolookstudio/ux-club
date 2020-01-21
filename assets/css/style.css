@@ -303,7 +303,7 @@ li.has-submenu {
 
 .single-course .title {
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 600;
     color: #272727;
     margin: 20px 0;
     margin-bottom: 15px;
@@ -1650,4 +1650,8 @@ payment-option .login-us.trxid input {}
 .for-loginmethod.payment-option .modal.fade .modal-dialog {
     -webkit-transform: translate(0, -20px);
     transform: translate(0, -20px);
+}
+
+.for-loginmethod.payment-option .price i {
+    transform: rotate(0deg);
 }
