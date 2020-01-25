@@ -1340,14 +1340,12 @@ header.header-area.page {
 }
 
 .login-us input:focus {
-    border: 1px solid #E30045;
+    box-shadow: 0px 0px 5px 2px #D5D5D5;
 }
-.payment-gatway .login-us lable img {
-    display: block;
-    width: 100%;
-}
-.payment-gatway .login-us.trxid input:focus {
-    border: 1px solid #222;
+
+.payment-gatway .try-thisfield {
+    margin-left: 13px;
+    margin-right: 13px;
 }
 
 .login-us input {
@@ -1587,8 +1585,6 @@ header.header-area.page {
     position: relative;
 }
 
-payment-option .login-us.trxid input {}
-
 .payment-gatway .login-us.trxid input {
     border-radius: 40px;
     margin: 0;
@@ -1607,7 +1603,7 @@ payment-option .login-us.trxid input {}
     top: 5px;
     font-size: 18px;
     border: 0px;
-    background: #D20F66;
+    background: #E30045;
     color: #fff;
     font-weight: 600;
     width: 110px;
@@ -1656,10 +1652,24 @@ payment-option .login-us.trxid input {}
 .for-loginmethod.payment-option .modal-header .close span {
     padding: 0;
     line-height: 0;
-    font-size: 20px;
     margin: 0;
+}
+
+.for-loginmethod.payment-option .modal-header .close span {
+    font-size: 16px;
 }
 
 .for-loginmethod.payment-option .price i {
     transform: rotate(0deg);
+}
+.accordion.faqs .card-body {
+    line-height: 1.7;
+}
+
+.rocket-by a.rocketts.active::after {
+    background: #790381;
+}
+
+.rocket-by a.rocketts:hover::after {
+    background: #790381;
 }
