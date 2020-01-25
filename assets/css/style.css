@@ -1340,7 +1340,14 @@ header.header-area.page {
 }
 
 .login-us input:focus {
-    border: 1px solid red;
+    border: 1px solid #E30045;
+}
+.payment-gatway .login-us lable img {
+    display: block;
+    width: 100%;
+}
+.payment-gatway .login-us.trxid input:focus {
+    border: 1px solid #222;
 }
 
 .login-us input {
@@ -1615,8 +1622,6 @@ payment-option .login-us.trxid input {}
 .payment-option .login-content h4 {
     margin-top: 36px;
 }
-
-.login-us {}
 
 .payment-gatway .login-us {
     margin-top: 15px;
