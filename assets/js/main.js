@@ -70,6 +70,16 @@
 		$(".rocket").removeClass("active");
 	});
 
+	$(".single-video-left .content a").on("click", function () {
+		$(".single-video-left .content .nav-link").removeClass("active");
+		$(".single-video-left .content .nav-link").removeClass("active");
+	});
+
+	$(".collapse-bt").on("click", function () {
+		$(".course-video.course-inner-page .col-md-5").addClass("active");
+		$(".course-video.course-inner-page .col-md-7").addClass("full-width");
+	});
+
 	// Activate owlCarousel
 	$('.related-course-carousel').owlCarousel({
 		items: 3,
@@ -91,5 +101,6 @@
 			}
 		}
 	});
+
 
 })(jQuery);

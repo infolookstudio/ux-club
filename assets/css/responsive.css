@@ -16,6 +16,29 @@
         line-height: 50px;
         margin-top: 20px;
     }
+
+    .course-video.course-inner-page .course-page-heading {
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+
+    .course-page-heading .site-btn {
+        font-size: 10px;
+    }
+
+    .collapse-bt {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    .course-video.course-inner-page .course-page-heading .title {
+        transform: translateX(-8px);
+        font-size: 15px;
+    }
+
+    .course-video.course-inner-page .course-page-heading .title::after {
+        display: none;
+    }
 }
 @media (max-width: 991px) {
    .header-buttons .site-button {
