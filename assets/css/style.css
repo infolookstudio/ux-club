@@ -1870,3 +1870,190 @@ header.header-area.page {
 .course-video.course-inner-page .course-page-heading .title {
     transform: translateX(-30px);
 }
+
+/* about page css */
+.about-bg {
+    height: 400px;
+    margin-top: -30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.about-content {
+    font-size: 18px;
+    text-align: center;
+    line-height: 34px;
+    color: #3C3C3C;
+    padding: 0 40px;
+    margin-bottom: 50px;
+}
+
+.about-content span {
+    font-weight: 700;
+}
+
+.section-title .title {
+    font-size: 30px;
+    color: #2A2D36;
+    font-weight: 400;
+}
+
+.section-title .title span {
+    font-weight: 700;
+}
+
+.togather-area {
+    padding: 60px 0;
+    border-top: 1px solid #EBEBEB;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.single-togther-item {
+    text-align: center;
+}
+
+.trainning-area {
+    background: #F6F6F6;
+    padding: 50px 0;
+}
+
+.trainning-img {
+    height: 360px;
+}
+
+.trainning-img::before {
+    background: #771C55;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.trainning-img img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.single-trainning-item {
+    position: relative;
+}
+
+.single-trainning-item .content .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.single-trainning-item .content {
+    color: #fff;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 2;
+    line-height: 25px;
+}
+
+.newslater-area {
+    padding: 55px 0;
+    background: #373A43;
+    color: #fff;
+}
+
+.newslater-area .section-title .title {
+    color: #fff;
+}
+
+.newslater-form {
+    position: relative;
+}
+
+.newslater-form input {
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    color: #7F7F7F;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 20px;
+}
+
+.newslater-form button {
+    position: absolute;
+    right: 3px;
+    font-size: 20px;
+    border: none;
+    background: #E30045;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 40px;
+    top: 2px;
+}
+
+.we-provide-area {
+    background: #D9DADB;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.about-page {
+    background: #2A2D36;
+} 
+
+.shape-1 {
+    position: absolute;
+    left: 16%;
+}
+
+.shape-2 {
+    position: absolute;
+    top: 0;
+    right: 35%;
+}
+
+.shape-3 {
+    position: absolute;
+    right: 35%;
+    top: 35%;
+}
+
+.shape-4 {
+    position: absolute;
+    right: 6%;
+    top: 36%;
+}
+
+.hero-area.about-page {
+    padding-bottom: 120px;
+}
+
+.single-trainning-item:hover .trainning-img {
+    transform: scale(1.2);
+}
+
+.single-trainning-item {
+    transition: .3s;
+    overflow: hidden;
+}
+
+.trainning-img {
+    transition: .3s;
+}
+
+.newslater-form button:hover {
+    background: #bf053e;
+}
+
+.course-video.course-inner-page .course-video-content {
+    margin-right: 131px;
+}
+
+.course-inner-page .tab-video {
+    margin-left: -133px;
+}
+
+.course-inner-page .embed-responsive {
+    width: 119%;
+}

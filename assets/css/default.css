@@ -914,6 +914,9 @@
 [data-overlay="7"]::before {
 	opacity: 0.7;
 }
+[data-overlay="75"]::before {
+	opacity: 0.75;
+}
 [data-overlay="8"]::before {
 	opacity: 0.8;
 }

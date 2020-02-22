@@ -382,6 +382,10 @@
     .accordion.course .btn.btn-link {
         padding-right: 15px;
     }
+
+    .about-content {
+        padding: 0 20px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -509,6 +513,10 @@
 }
 
 @media (max-width: 390px) {
+
+    .newslater-form button {
+        padding: 10px 20px;
+    }
     .header-buttons {
         padding-left: 50px;
     }
