@@ -2046,14 +2046,30 @@ header.header-area.page {
     background: #bf053e;
 }
 
+section.course-video.course-inner-page .col-md-4 {background: #F6F6F6;padding-right: 0;}
+
+section.course-video.course-inner-page .col-md-8 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .course-video.course-inner-page .course-video-content {
-    margin-right: 131px;
+    height: 550px;
 }
 
-.course-inner-page .tab-video {
-    margin-left: -133px;
+section.course-video.course-inner-page .tab-content .tab-pane {
+    min-height: 550px;
 }
 
-.course-inner-page .embed-responsive {
-    width: 119%;
+
+.collapse-bt:hover {
+    color: #E30045;
+}
+
+section.course-video.course-inner-page .single-video-left {
+    padding-left: 0;
+}
+
+section.course-video.course-inner-page .tab-content .single-video-left {
+    padding-left: 20px;
 }

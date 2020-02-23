@@ -114,9 +114,6 @@
 
 @media (max-width: 767px) {
 
-    .course-video.course-inner-page .course-video-content {
-        margin-right: 0;
-    }
 
     .course-inner-page .embed-responsive {
         width: 100%;
