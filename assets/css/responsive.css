@@ -153,6 +153,9 @@
     .sidebarlists ul li ul li:not(:last-child) {
         border-bottom: 1px solid #ddd;
     }
+    section.course-video.course-inner-page .tab-content {
+    margin-bottom: 0;
+}
 
     .header-left {
         justify-content: center;
