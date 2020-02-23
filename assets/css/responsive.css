@@ -113,15 +113,11 @@
 }
 
 @media (max-width: 767px) {
-
-
+    .course-video.course-inner-page .container-fluid .row {
+    flex-direction: column-reverse;
+}
     .course-inner-page .embed-responsive {
         width: 100%;
-    }
-
-    .course-inner-page .tab-video {
-        margin: 0;
-        margin-left: 7px;
     }
 
     .navigation__button {
