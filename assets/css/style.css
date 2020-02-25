@@ -1684,7 +1684,7 @@ header.header-area.page {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 21px 0;
+    padding: 4px 0;
     z-index: 2;
 }
 
@@ -1734,7 +1734,7 @@ header.header-area.page {
 }
 
 .single-video-left.video-title {
-    padding: 27px 0;
+    padding: 10px 0;
     align-items: center;
     color: #fff;
     font-size: 18px;
@@ -1830,9 +1830,7 @@ header.header-area.page {
 
 .course-video.course-inner-page .course-video-content {
     margin: 0;
-    padding-left: 15px;
     background: #F6F6F6;
-    padding-right: 15px;
     height: 450px;
     overflow-y: scroll;
 }
@@ -1857,6 +1855,7 @@ header.header-area.page {
 
 .course-video.course-inner-page .btn.btn-link {
     font-size: 18px;
+    padding-left: 10px;
 }
 
 .course-video.course-inner-page .nav-link .title {
@@ -2000,7 +1999,7 @@ header.header-area.page {
 
 .about-page {
     background: #2A2D36;
-} 
+}
 
 .shape-1 {
     position: absolute;
@@ -2046,7 +2045,10 @@ header.header-area.page {
     background: #bf053e;
 }
 
-section.course-video.course-inner-page .col-md-4 {background: #F6F6F6;padding-right: 0;}
+section.course-video.course-inner-page .col-md-4 {
+    background: #F6F6F6;
+    padding-right: 0;
+}
 
 section.course-video.course-inner-page .col-md-8 {
     padding-left: 0;
@@ -2055,6 +2057,7 @@ section.course-video.course-inner-page .col-md-8 {
 
 .course-video.course-inner-page .course-video-content {
     height: 550px;
+    margin-left: -15px;
 }
 
 section.course-video.course-inner-page .tab-content .tab-pane {
@@ -2072,4 +2075,41 @@ section.course-video.course-inner-page .single-video-left {
 
 section.course-video.course-inner-page .tab-content .single-video-left {
     padding-left: 20px;
+}
+
+.course-page-heading .site-btn:hover {
+    background: #E30045;
+    border-color: transparent;
+}
+
+.header-area.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    background: #0F102C;
+    box-shadow: 0px 13px 25px -12px rgba(0, 0, 0, 0.1);
+}
+
+.header-area.animated {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+}
+
+.course-video.course-inner-page .panel {
+    background: #ebe8e8;
+    margin-bottom: 5px;
+}
+
+section.course-video.course-inner-page .single-videos {
+    margin: 0 10px;
+    margin-bottom: 5px;
+}
+
+section.course-video.course-inner-page .accordion.course .btn.btn-link {
+    padding-right: 25px;
+}
+
+section.course-video.course-inner-page .accordion.course .subtitle>a::after {
+    right: 10px;
 }
