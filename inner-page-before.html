@@ -78,44 +78,49 @@
     </header>
     <!-- header area end -->
 
-    <!-- popup area start -->
-    <div class="for-loginmethod">
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><i class="icofont-close"></i></span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="log-inpagess">
-                            <div class="login-content">
-                                <h4>Log In to Start Learning</h4>
-                                <div class="connect-facebook">
-                                    <span>
-                                        <a href=""><i class="fa fa-facebook-f"></i>Log In with
-                                            facebook</a>
-                                    </span>
-                                </div>
-                                <div class="loginforms1">
-                                    <form action="">
-                                        <div class="login-us">
-                                            <input type="email" placeholder="Email">
-                                            <input type="password" placeholder="Password">
+<!-- popup area start -->
+<div class="for-loginmethod">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="icofont-close"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="log-inpagess">
+                        <div class="login-content">
+                            <h4>Log In to Start Learning</h4>
+                            <div class="connect-facebook">
+                                <span>
+                                    <a href=""><i class="fa fa-facebook-f"></i>Log In with
+                                        facebook</a>
+                                </span>
+                            </div>
+                            <div class="loginforms1">
+                                <form action="">
+                                    <div class="login-us">
+                                        <div class="form-group">
+                                            <input type="email" name="email">
+                                            <label for="email">Email</label>
                                         </div>
-                                    </form>
-                                </div>
-                                <div class="repare-pass">
-                                    <div class="log-into">
-                                        <div class="try-thisfield">
-                                            <a href="profile.html" class="logs1">Log In</a>
-                                            <a href="" class="forgot1">Forgot Password?</a>
+                                        <div class="form-group">
+                                            <input type="password" name="password">
+                                            <label for="password">Password</label>
                                         </div>
-                                        <span>Don't have an membership? <a href="">JOIN</a></span>
                                     </div>
+                                </form>
+                            </div>
+                            <div class="repare-pass">
+                                <div class="log-into">
+                                    <div class="try-thisfield">
+                                        <a href="profile.html" class="logs1">Log In</a>
+                                        <a href="" class="forgot1">Forgot Password?</a>
+                                    </div>
+                                    <span>Don't have an membership? <a href="">JOIN</a></span>
                                 </div>
                             </div>
                         </div>
@@ -123,49 +128,82 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
     </div>
+    <!-- Modal -->
+</div>
 
 
-    <div class="for-loginmethod">
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><i class="icofont-close"></i></span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="log-inpagess">
-                            <div class="login-content">
-                                <h4>Join to Start Learning</h4>
-                                <div class="connect-facebook">
-                                    <span>
-                                        <a href=""><i class="fa fa-facebook-f"></i>Log In with
-                                            facebook</a>
-                                    </span>
-                                </div>
-                                <div class="loginforms1">
-                                    <form action="">
-                                        <div class="login-us">
-                                            <input type="text" placeholder="Name">
-                                            <input type="email" placeholder="Email">
-                                            <input type="number" placeholder="Phone Number">
-                                            <input type="password" placeholder="Set Password">
+<div class="for-loginmethod">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="icofont-close"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="log-inpagess">
+                        <div class="login-content">
+                            <h4>Join to Start Learning</h4>
+                            <div class="connect-facebook">
+                                <span>
+                                    <a href=""><i class="fa fa-facebook-f"></i>Log In with
+                                        facebook</a>
+                                </span>
+                            </div>
+                            <div class="loginforms1">
+                                <form action="">
+                                    <div class="login-us">
+                                        <div class="form-group">
+                                            <input type="text" name="firstname">
+                                            <label for="firstname">First Name</label>
                                         </div>
-                                    </form>
-                                </div>
-                                <div class="repare-pass">
-                                    <div class="log-into">
-                                        <div class="try-thisfield">
-                                            <a href="profile-2.html" data-toggle="modal"
-                                                data-target="#exampleModalCenter3" class="logs1 next-hide">Sing Up</a>
+                                        <div class="form-group">
+                                            <input type="text" name="lastname">
+                                            <label for="lastname">Last Name</label>
                                         </div>
-                                        <span>You have already joined? <a href="">LOG IN</a></span>
+                                        <div class="form-group">
+                                            <input type="email" name="email">
+                                            <label for="email">Email</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="tel">
+                                            <label for="email">Phone</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <select name="subject">
+                                                <option data-display="Occupation">Occupation</option>
+                                                <option value="1">Student</option>
+                                                <option value="2">Freelancer </option>
+                                                <option value="3">Employed </option>
+                                                <option value="4">Business </option>
+                                                <option value="5">Other </option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="password">
+                                            <label for="password">Create Password</label>
+                                        </div>
+                                        <div class="form-grou">
+                                            <label class="container-label">I agree to UX Club <a href="#">Terms
+                                                    and
+                                                    Conditions*</a>
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
                                     </div>
+                                </form>
+                            </div>
+                            <div class="repare-pass">
+                                <div class="log-into">
+                                    <div class="try-thisfield">
+                                        <a href="profile-2.html" class="logs1 next-hide">Sing Up</a>
+                                    </div>
+                                    <span>You have already joined? <a href="">LOG IN</a></span>
                                 </div>
                             </div>
                         </div>
@@ -173,78 +211,84 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
     </div>
+    <!-- Modal -->
+</div>
 
-    <div class="for-loginmethod payment-option">
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><i class="icofont-close"></i></span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="log-inpagess">
-                            <div class="login-content next-h4">
-                                <div class="row">
-                                    <div class="col">
-                                        <h4>Pay the course fee* to add
-                                            courses to your profile</h4>
-                                        <div class="loginforms1">
-                                            <div class="price">
-                                                <span><i class="icofont-taka"></i> 1500</span>
-                                            </div>
-                                            <div class="payment-gatway">
-                                                <div class="rocket-by">
-                                                    <p>Pay course fee* via
-                                                        <a href="#" class="bkashh1 active">bKash</a>
-                                                        or
-                                                        <a href="#" class="rocketts">Rocket</a>
-                                                    </p>
-                                                </div>
-                                                <div class="login-us trxid bkash active">
-                                                    <form action="">
-                                                        <lable for="bkash">
-                                                            <img src="assets/images/bkash.png" alt="">
-                                                        </lable>
-                                                        <div class="try-thisfield got red-submit">
-                                                            <input type="text" name="bkash" placeholder="Enter TrxID :">
-
-                                                            <button type="submit" class="logs1">Submit</button>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                                <div class="login-us trxid rocket">
-                                                    <form action="">
-                                                        <lable for="rocket"><img src="assets/images/rocketss.png"
-                                                                alt="">
-                                                        </lable>
-                                                        <div class="try-thisfield got red-submit">
-                                                            <input type="text" name="rocket"
-                                                                placeholder="Enter TrxID :">
-
-                                                            <button type="submit" class="logs1">Submit</button>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
+<div class="for-loginmethod payment-option">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="icofont-close"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="log-inpagess">
+                        <div class="login-content next-h4">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="notice-box payment">
+                                        <h2 class="title">Pay the Course fee*</h2>
+                                        <p>Professional Graphic Design</p>
+                                        <div class="price">
+                                            <span><i class="icofont-taka"></i> 1500</span>
                                         </div>
-                                        <div class="repare-pass">
-                                            <div class="log-into">
-                                                <div class="call-usw">
-                                                    <p>Call for Help : <a href="tel:01743 196 240">01743
-                                                            196 240</a></p>
-                                                </div>
+                                    </div>
+                                    <div class="loginforms1">
+                                        <div class="payment-gatway">
+                                            <div class="rocket-by">
+                                                <p>Pay course fee* via
+                                                    <a href="#" class="bkashh1 active">bKash</a>
+                                                    or
+                                                    <a href="#" class="rocketts">Rocket</a>
+                                                </p>
+                                            </div>
+                                            <div class="login-us trxid bkash active">
+                                                <form action="">
+                                                    <lable for="bkash">
+                                                        <img src="assets/images/bkash.png" alt="">
+                                                    </lable>
+                                                    <span class="trans-text">Confirm with the <span>TrxID</span>
+                                                        after making the
+                                                        payment</span>
+                                                    <div class="try-thisfield got red-submit">
+                                                        <input type="text" name="bkash" placeholder="Enter TrxID :">
+
+                                                        <button type="submit" class="logs1">Submit</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="login-us trxid rocket">
+                                                <form action="">
+                                                    <lable for="rocket"><img src="assets/images/rocketss.png" alt="">
+                                                    </lable>
+                                                    <span class="trans-text">Confirm with the TrxID after making
+                                                        the
+                                                        payment</span>
+                                                    <div class="try-thisfield got red-submit">
+                                                        <input type="text" name="rocket" placeholder="Enter TrxID :">
+
+                                                        <button type="submit" class="logs1">Submit</button>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col tshirt-img my-auto">
-                                        <img src="assets/images/offer.png" alt="">
+                                    <div class="repare-pass">
+                                        <div class="log-into">
+                                            <div class="call-usw">
+                                                <p>Call for Help : <a href="tel:01743 196 240">01743
+                                                        196 240</a></p>
+                                            </div>
+                                        </div>
                                     </div>
+                                </div>
+                                <div class="col tshirt-img my-auto">
+                                    <img src="assets/images/offer.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -252,91 +296,93 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
     </div>
+    <!-- Modal -->
+</div>
 
-    <div class="for-loginmethod payment-option account-detials">
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true"><i class="icofont-close"></i></span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="log-inpagess">
-                            <div class="login-content next-h4">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="single-course">
-                                            <div class="course-img">
-                                                <img src="assets/images/course-2.jpg" alt="Course 1">
-                                            </div>
-                                            <h4 class="title">Executive Design Course</h4>
-                                            <p>Learn CV Design, Pitch deck Design,
-                                                Infographic and more</p>
-                                            <span class="course-meta">
-                                                <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
-                                                Class with Project
-                                            </span>
+<div class="for-loginmethod payment-option account-detials">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="icofont-close"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="log-inpagess">
+                        <div class="login-content next-h4">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="single-course">
+                                        <div class="course-img">
+                                            <img src="assets/images/course-2.jpg" alt="Course 1">
                                         </div>
-                                        <div class="notice-box">
-                                            <h4 class="title"><i class="fa"></i> You want to take this course</h4>
-                                            <p>Please continue with your details so that you will
-                                                <span>create an account</span> and start learning</p>
-                                        </div>
+                                        <h4 class="title">Executive Design Course</h4>
+                                        <p>Learn CV Design, Pitch deck Design,
+                                            Infographic and more</p>
+                                        <span class="course-meta">
+                                            <i class="fa fa-exclamation-circle" aria-hidden="true"></i> 20
+                                            Class with Project
+                                        </span>
                                     </div>
-                                    <div class="col">
-                                        <div class="loginforms1 account-details">
-                                            <h2 class="title">Your Details</h2>
-                                            <form action="">
-                                                <div class="login-us">
-                                                    <div class="form-group">
-                                                        <input type="text" name="firstname" placeholder="First Name">
-                                                        <label for="firstname">First Name</label>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" name="lastname" placeholder="Last Name">
-                                                        <label for="lastname">Last Name</label>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="email" name="email" placeholder="Email">
-                                                        <label for="email">Email</label>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="tel" placeholder="Phone Number">
-                                                        <label for="email">Phone</label>
-                                                    </div>
-                                                    <div class="form-group">
+                                    <div class="notice-box">
+                                        <h4 class="title"><i class="icofont-exclamation-circle"></i> You want to
+                                            take this course</h4>
+                                        <p>Please continue with your details so that you will
+                                            <span>create an account</span> and start learning</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="loginforms1 account-details">
+                                        <h2 class="title">Your Details</h2>
+                                        <form action="">
+                                            <div class="login-us">
+                                                <div class="form-group">
+                                                    <input type="text" name="firstname">
+                                                    <label for="firstname">First Name</label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" name="lastname">
+                                                    <label for="lastname">Last Name</label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" name="email">
+                                                    <label for="email">Email</label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="tel">
+                                                    <label for="email">Phone</label>
+                                                </div>
+                                                <div class="form-group">
                                                     <select name="subject">
                                                         <option data-display="Occupation">Occupation</option>
                                                         <option value="1">Student</option>
-                                                        <option value="2">Teacher</option>
-                                                        <option value="3">Others</option>
+                                                        <option value="2">Freelancer </option>
+                                                        <option value="3">Employed </option>
+                                                        <option value="4">Business </option>
+                                                        <option value="5">Other </option>
                                                     </select>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="password" name="password"
-                                                        placeholder="Create Password">
-                                                        <label for="password">Create Password</label>
-                                                    </div>
-                                                    <div class="form-grou">
-                                                        <label class="container-label">I agree to UX Club <a href="#">Terms
-                                                                and
-                                                                Conditions*</a>
-                                                            <input type="checkbox">
-                                                            <span class="checkmark"></span>
-                                                        </label>
-                                                    </div>
-                                                    <a href="#" class="submit-btn" data-toggle="modal"
-                                                        data-target="#exampleModalCenter3" data-dismiss="modal"
-                                                        aria-label="Close">Continue</a>
                                                 </div>
-                                            </form>
-                                        </div>
+                                                <div class="form-group">
+                                                    <input type="password" name="password">
+                                                    <label for="password">Create Password</label>
+                                                </div>
+                                                <div class="form-grou">
+                                                    <label class="container-label">I agree to UX Club <a href="#">Terms
+                                                            and
+                                                            Conditions*</a>
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                                <a href="#" class="submit-btn" data-toggle="modal"
+                                                    data-target="#exampleModalCenter3" data-dismiss="modal"
+                                                    aria-label="Close">Continue</a>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -345,9 +391,10 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
     </div>
-    <!-- popup area end -->
+    <!-- Modal -->
+</div>
+<!-- popup area end -->
 
     <!-- hamburger menu start -->
     <div class="hamburger-menu">
@@ -412,7 +459,7 @@
                 <div class="col-lg-8">
                     <div class="course-video-content">
                         <div class="course-video-top">
-                            <h4>Start Learning</h4>
+                            <h4>UI Design Master Course</h4>
                             <span>22 Video Class</span>
                         </div>
                         <div class="panel-group accordion course" id="accordion" role="tablist"

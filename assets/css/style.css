@@ -1102,12 +1102,13 @@ header.header-area.page {
     width: 100%;
     background: #fff;
     border: none;
-    padding: 10px 14px;
+    padding: 10px 10px;
     margin-top: 12px;
     border-radius: 6px;
     color: #2C2D35;
     font-weight: 500;
     font-size: 16px;
+    transition: .2s;
 }
 
 .try-thisfield a {
@@ -1339,10 +1340,6 @@ header.header-area.page {
     border-top: 0px !important;
 }
 
-.login-us input:focus {
-    box-shadow: 0px 0px 5px 2px #D5D5D5;
-}
-
 .payment-gatway .try-thisfield {
     margin-left: 13px;
     margin-right: 13px;
@@ -1350,6 +1347,10 @@ header.header-area.page {
 
 .login-us input {
     border: 1px solid transparent;
+}
+
+.login-us input:focus {
+    border: 1px solid #999;
 }
 
 /* sidebar start */
@@ -1726,7 +1727,7 @@ header.header-area.page {
     border-radius: 40px;
     padding: 7px 15px;
     border: 2px solid #fff;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .collapse-bt {
@@ -1782,11 +1783,10 @@ header.header-area.page {
 }
 
 .single-course.profile .course-img {
-    position: relative;
-    z-index: 1;
+    margin: 0;
 }
 
-.single-course.profile .course-img .start-btn {
+.single-course.profile .start-btn {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1802,7 +1802,7 @@ header.header-area.page {
     visibility: hidden;
 }
 
-.single-course.profile .course-img::after {
+.single-course.profile::after {
     position: absolute;
     left: 0;
     top: 0;
@@ -1813,19 +1813,20 @@ header.header-area.page {
     opacity: 0;
     visibility: hidden;
     transition: .3s;
+    border-radius: 8px;
 }
 
-.single-course.profile:hover .course-img::after {
+.single-course.profile:hover::after {
     visibility: visible;
     opacity: .5;
 }
 
-.single-course.profile:hover .course-img .start-btn {
+.single-course.profile:hover .start-btn {
     opacity: 1;
     visibility: visible;
 }
 
-.single-course.profile .course-img .start-btn:hover {
+.single-course.profile .start-btn:hover {
     background: #E30045;
     border-color: transparent;
 }
@@ -1866,13 +1867,14 @@ header.header-area.page {
 }
 
 .course-video.course-inner-page .course-page-heading .course-page-logo {
-    flex-basis: 18%;
+    flex-basis: 15%;
 }
 
 .course-video.course-inner-page .course-page-heading .title {
     transform: translateX(-30px);
-    font-size: 22px;
-    margin-left: 30px;
+    font-size: 23px;
+    margin-left: 31px;
+    line-height: 1;
 }
 
 /* about page css */
@@ -2084,12 +2086,16 @@ section.course-video.course-inner-page .tab-content .single-video-left {
 }
 
 .header-area.sticky {
-    position: fixed;
+    position: fixed !important;
     top: 0px;
     width: 100%;
     z-index: 10;
-    background: #0F102C;
+    background: #2A2D36;
     box-shadow: 0px 13px 25px -12px rgba(0, 0, 0, 0.1);
+}
+
+.header-area.page.sticky {
+    background: #fff;
 }
 
 .header-area.animated {
@@ -2162,6 +2168,7 @@ section.course-video.course-inner-page .accordion.course .subtitle>a::after {
     height: 46px;
     line-height: 46px;
     z-index: 99;
+    padding-left: 10px;
 }
 
 .login-us .nice-select .current {
@@ -2205,7 +2212,7 @@ section.course-video.course-inner-page .accordion.course .subtitle>a::after {
     height: 25px;
     width: 25px;
     border: 2px solid #848484;
-    background: transparent;
+    background: #fff;
     border-radius: 5px;
 }
 
@@ -2261,20 +2268,20 @@ section.course-video.course-inner-page .accordion.course .subtitle>a::after {
 }
 
 .loginforms1 .form-group label {
-    font-size: 10px;
+    font-size: 16px;
     margin: 0;
     position: absolute;
     color: #747474;
-    margin-top: 11px;
-    left: 16px;
-    opacity: 0;
-    visibility: hidden;
+    margin-top: 24px;
+    left: 11px;
+    opacity: 1;
     transition: .2s;
+    pointer-events: none;
 }
 
-.loginforms1 .form-group input:focus~label {
-    opacity: 1;
-    visibility: visible;
+.login-us .form-group input:focus~label {
+    font-size: 10px;
+    margin-top: 14px;
 }
 
 .loginforms1 .form-group input:focus::placeholder {
@@ -2284,4 +2291,76 @@ section.course-video.course-inner-page .accordion.course .subtitle>a::after {
 .login-content .single-course .title {
     margin-top: 15px;
     margin-bottom: 10px;
+}
+
+.login-us .nice-select ul.list li:first-child {
+    display: none;
+}
+
+/* .modal-backdrop.show {
+    z-index: 9;
+} */
+
+.notice-box.payment {
+    text-align: center;
+    border: 1px solid #7FBFCB;
+    margin-bottom: 25px;
+}
+
+.notice-box.payment .title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2F2E2E;
+}
+
+.notice-box.payment p {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.notice-box.payment span {
+    font-size: 35px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+.login-content.next-h4 p {
+    font-size: 18px;
+}
+
+span.trans-text {
+    font-size: 11px;
+    color: #5D5D5D;
+    display: block;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+span.trans-text span {
+    font-weight: 800;
+}
+
+.payment-gatway .try-thisfield {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.single-course.profile {
+    padding: 0;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.single-course.profile .course-meta {
+    padding: 0 20px;
+}
+
+.single-course.profile p {
+    padding: 0 20px;
+}
+
+.single-course.profile h4.title {
+    padding: 0 20px;
 }
