@@ -291,29 +291,49 @@
                                     </div>
                                     <div class="col">
                                         <div class="loginforms1 account-details">
+                                            <h2 class="title">Your Details</h2>
                                             <form action="">
                                                 <div class="login-us">
-                                                    <input type="text" placeholder="First Name">
-                                                    <input type="text" placeholder="Last Name">
-                                                    <input type="email" placeholder="Email">
-                                                    <input type="tel" placeholder="Phone Number">
+                                                    <div class="form-group">
+                                                        <input type="text" name="firstname" placeholder="First Name">
+                                                        <label for="firstname">First Name</label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="text" name="lastname" placeholder="Last Name">
+                                                        <label for="lastname">Last Name</label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="email" name="email" placeholder="Email">
+                                                        <label for="email">Email</label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="tel" placeholder="Phone Number">
+                                                        <label for="email">Phone</label>
+                                                    </div>
+                                                    <div class="form-group">
                                                     <select name="subject">
-                                                        <option data-display="Select Doctors">Occupation</option>
+                                                        <option data-display="Occupation">Occupation</option>
                                                         <option value="1">Student</option>
                                                         <option value="2">Teacher</option>
                                                         <option value="3">Others</option>
                                                     </select>
-                                                    <input type="password" placeholder="Create Password">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="password" name="password"
+                                                        placeholder="Create Password">
+                                                        <label for="password">Create Password</label>
+                                                    </div>
                                                     <div class="form-grou">
-                                                        <label class="container">I agree to UX Club <a href="#">Terms
+                                                        <label class="container-label">I agree to UX Club <a href="#">Terms
                                                                 and
                                                                 Conditions*</a>
-                                                            <input type="checkbox" checked="checked">
+                                                            <input type="checkbox">
                                                             <span class="checkmark"></span>
                                                         </label>
                                                     </div>
-                                                    <button type="submit" data-toggle="modal"
-                                                        data-target="#exampleModalCenter3">Continue</button>
+                                                    <a href="#" class="submit-btn" data-toggle="modal"
+                                                        data-target="#exampleModalCenter3" data-dismiss="modal"
+                                                        aria-label="Close">Continue</a>
                                                 </div>
                                             </form>
                                         </div>

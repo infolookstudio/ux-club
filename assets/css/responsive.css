@@ -341,6 +341,9 @@
 }
 
 @media (max-width: 575px) {
+    .login-content .single-course {
+        margin-top: 20px;
+    }
 
     .hero-area {
         padding-bottom: 60px;

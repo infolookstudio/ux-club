@@ -1647,6 +1647,7 @@ header.header-area.page {
     color: #fff;
     border-radius: 50%;
     border: 2px solid #fff;
+    line-height: 15px;
 }
 
 .for-loginmethod.payment-option .modal-header .close span {
@@ -1704,7 +1705,7 @@ header.header-area.page {
     font-size: 25px;
     color: #F5F5F5;
     font-weight: 800;
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
 .course-page-heading::after {
@@ -1725,6 +1726,7 @@ header.header-area.page {
     border-radius: 40px;
     padding: 7px 15px;
     border: 2px solid #fff;
+    font-size: 9px;
 }
 
 .collapse-bt {
@@ -1841,7 +1843,8 @@ header.header-area.page {
 }
 
 .course-video.course-inner-page .course-page-heading {
-    padding-left: 15px;
+    padding-left: 0;
+    margin-left: -5px;
 }
 
 .course-video.course-inner-page .nav-link {
@@ -1863,11 +1866,13 @@ header.header-area.page {
 }
 
 .course-video.course-inner-page .course-page-heading .course-page-logo {
-    flex-basis: 15%;
+    flex-basis: 18%;
 }
 
 .course-video.course-inner-page .course-page-heading .title {
     transform: translateX(-30px);
+    font-size: 22px;
+    margin-left: 30px;
 }
 
 /* about page css */
@@ -2045,12 +2050,12 @@ header.header-area.page {
     background: #bf053e;
 }
 
-section.course-video.course-inner-page .col-md-4 {
+section.course-video.course-inner-page .col-md-3 {
     background: #F6F6F6;
     padding-right: 0;
 }
 
-section.course-video.course-inner-page .col-md-8 {
+section.course-video.course-inner-page .col-md-9 {
     padding-left: 0;
     padding-right: 0;
 }
@@ -2058,10 +2063,6 @@ section.course-video.course-inner-page .col-md-8 {
 .course-video.course-inner-page .course-video-content {
     height: 550px;
     margin-left: -15px;
-}
-
-section.course-video.course-inner-page .tab-content .tab-pane {
-    min-height: 550px;
 }
 
 
@@ -2112,4 +2113,175 @@ section.course-video.course-inner-page .accordion.course .btn.btn-link {
 
 section.course-video.course-inner-page .accordion.course .subtitle>a::after {
     right: 10px;
+}
+
+.login-content .single-course {
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.notice-box {
+    background: #B7E6EE;
+    color: #006A7D;
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #85C6D1;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.notice-box .title {
+    margin: 0;
+    margin-top: 0 !important;
+    color: #006A7D;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.notice-box span {
+    font-weight: 600;
+    color: #006A7D;
+}
+
+.notice-box p {
+    color: #006A7D !important;
+    line-height: 25px;
+}
+
+.loginforms1.account-details .title {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.login-us .nice-select {
+    width: 100%;
+    margin-top: 12px;
+    font-size: 16px;
+    color: #2C2D35;
+    height: 46px;
+    line-height: 46px;
+    z-index: 99;
+}
+
+.login-us .nice-select .current {
+    font-weight: 500;
+    color: #737373;
+}
+
+.login-us .nice-select ul.list {
+    width: 100%;
+}
+
+.submit-btn {
+    display: block;
+    padding: 12px 0;
+    background: #E30045;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.container-label {
+    position: relative;
+    padding-left: 35px;
+    margin: 0;
+    color: #737373;
+    cursor: pointer;
+}
+
+.container-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.container-label .checkmark {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #848484;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.container-label input:checked~.checkmark {
+    background: #E30045;
+    border-color: transparent;
+}
+
+.container-label input~.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container-label input:checked~.checkmark::after {
+    display: block;
+}
+
+.container-label .checkmark::after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.form-grou {
+    text-align: left;
+    margin-top: 12px;
+}
+
+.submit-btn {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.submit-btn:hover {
+    color: #fff;
+    background: #9C0333;
+}
+
+.container-label a {
+    color: #565656;
+    font-weight: 500;
+}
+
+.loginforms1 .form-group {
+    position: relative;
+    text-align: left;
+    margin: 0 !important;
+}
+
+.loginforms1 .form-group label {
+    font-size: 10px;
+    margin: 0;
+    position: absolute;
+    color: #747474;
+    margin-top: 11px;
+    left: 16px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s;
+}
+
+.loginforms1 .form-group input:focus~label {
+    opacity: 1;
+    visibility: visible;
+}
+
+.loginforms1 .form-group input:focus::placeholder {
+    opacity: 0;
+}
+
+.login-content .single-course .title {
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
