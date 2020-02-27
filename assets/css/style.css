@@ -1648,7 +1648,7 @@ header.header-area.page {
     color: #fff;
     border-radius: 50%;
     border: 2px solid #fff;
-    line-height: 15px;
+    line-height: 12px;
 }
 
 .for-loginmethod.payment-option .modal-header .close span {
@@ -2172,7 +2172,7 @@ section.course-video.course-inner-page .accordion.course .subtitle>a::after {
 }
 
 .login-us .nice-select .current {
-    font-weight: 500;
+    font-weight: 800;
     color: #737373;
 }
 
@@ -2279,13 +2279,14 @@ section.course-video.course-inner-page .accordion.course .subtitle>a::after {
     pointer-events: none;
 }
 
-.login-us .form-group input:focus~label {
+.login-us input:focus::placeholder {
     font-size: 10px;
-    margin-top: 14px;
+    transform: translateY(-12px);
 }
 
-.loginforms1 .form-group input:focus::placeholder {
-    opacity: 0;
+.login-us input::placeholder,
+.loginforms1 input::placeholder {
+    transition: .2s;
 }
 
 .login-content .single-course .title {
