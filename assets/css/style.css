@@ -2390,7 +2390,7 @@ section.login-area {
 
 .login-top .content {
     position: relative;
-    padding-left: 28px;
+    padding-left: 25px;
 }
 
 .login-top .content::after {
@@ -2405,7 +2405,8 @@ section.login-area {
 }
 
 .login-top .site-logo {
-    margin-right: 30px;
+    margin-right: 20px;
+    flex-basis: 40%;
 }
 
 .login-top .title strong {
@@ -2481,13 +2482,17 @@ section.login-area {
 .login-area.register::after {
     content: "";
     background-image: url(../images/register.jpg);
-    background-position: center center;
+    background-position: center left;
     background-size: cover;
     right: 0;
     width: 60%;
     height: 100%;
     position: absolute;
     top: 0;
+}
+
+.login-box.register .login-top .title {
+    font-weight: 800;
 }
 
 .login-box.register .login-top {
@@ -2506,6 +2511,10 @@ section.login-area {
     line-height: 50px;
     border-color: #D7D7D7;
     padding-left: 10px;
+}
+
+.login-us .form-bottom {
+    margin-top: 10px;
 }
 
 .login-form .nice-select ul.list {
