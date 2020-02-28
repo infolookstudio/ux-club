@@ -539,7 +539,7 @@ header.header-area.page {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: 99;
+    z-index: 9;
 }
 
 .inner-course::before {
@@ -2305,7 +2305,9 @@ section.course-video.course-inner-page .accordion.course .subtitle>a::after {
 .notice-box.payment {
     text-align: center;
     border: 1px solid #7FBFCB;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .notice-box.payment .title {
@@ -2364,4 +2366,161 @@ span.trans-text span {
 
 .single-course.profile h4.title {
     padding: 0 20px;
+}
+
+
+/* login css */
+section.login-area {
+    padding: 130px 0;
+}
+
+.login-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    justify-self: center;
+}
+
+.login-top .title {
+    font-size: 30px;
+    color: #282828;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.login-top .content {
+    position: relative;
+    padding-left: 28px;
+}
+
+.login-top .content::after {
+    content: "";
+    left: 0;
+    height: 56px;
+    background: #282828;
+    width: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login-top .site-logo {
+    margin-right: 30px;
+}
+
+.login-top .title strong {
+    font-weight: 800;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: 1px solid #D7D7D7;
+    margin-bottom: 15px;
+    color: #474747;
+    font-weight: 500;
+    transition: .2s;
+}
+
+.login-form input::placeholder {
+    color: #8F8F8F;
+    transition: .2s;
+}
+
+.login-form input:focus::placeholder,
+.login-form input:hover::placeholder {
+    font-size: 10px;
+    transform: translateY(-15px);
+}
+
+
+.login-form input[type=submit] {
+    background: #E30045;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    border: transparent;
+    padding: 10px 10px;
+}
+
+.login-form input[type=submit]:hover {
+    background: #af0438;
+    color: #fff;
+}
+
+.form-bottom {
+    text-align: center;
+    color: #565964;
+}
+
+.form-bottom .forget-btn {
+    font-weight: 700;
+    color: #565964;
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+.form-bottom .join {
+    color: #E30045;
+    font-weight: 800;
+}
+
+.login-form input:hover,
+.login-form input:focus {
+    border-color: #7D7D7D;
+}
+
+.login-area.register {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.login-area.register::after {
+    content: "";
+    background-image: url(../images/register.jpg);
+    background-position: center center;
+    background-size: cover;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.login-box.register .login-top {
+    margin-bottom: 25px;
+}
+
+.login-form span.current {
+    font-weight: 500;
+    color: #474747;
+}
+
+.login-form .nice-select {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
+    border-color: #D7D7D7;
+    padding-left: 10px;
+}
+
+.login-form .nice-select ul.list {
+    width: 100%;
+}
+
+.login-form .nice-select ul.list li:first-child {
+    display: none;
+}
+
+.login-form .form-grou {
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+label.container-label a {
+    color: #565656;
 }
