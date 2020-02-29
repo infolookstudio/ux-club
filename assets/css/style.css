@@ -1792,7 +1792,7 @@ header.header-area.page {
     top: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 35px;
     font-size: 14px;
     font-weight: 700;
     border-radius: 40px;
@@ -1818,7 +1818,7 @@ header.header-area.page {
 
 .single-course.profile:hover::after {
     visibility: visible;
-    opacity: .5;
+    opacity: .8;
 }
 
 .single-course.profile:hover .start-btn {
@@ -2390,7 +2390,7 @@ section.login-area {
 
 .login-top .content {
     position: relative;
-    padding-left: 25px;
+    padding-left: 33px;
 }
 
 .login-top .content::after {
@@ -2405,8 +2405,7 @@ section.login-area {
 }
 
 .login-top .site-logo {
-    margin-right: 20px;
-    flex-basis: 40%;
+    margin-right: 33px;
 }
 
 .login-top .title strong {
@@ -2482,17 +2481,25 @@ section.login-area {
 .login-area.register::after {
     content: "";
     background-image: url(../images/register.jpg);
-    background-position: center left;
+    background-position: center center;
     background-size: cover;
-    right: 0;
+    left: 0;
     width: 60%;
     height: 100%;
     position: absolute;
     top: 0;
 }
 
+.login-form input[type=checkbox] {
+    display: none;
+}
+
 .login-box.register .login-top .title {
     font-weight: 800;
+}
+
+.login-top .title span {
+    display: block;
 }
 
 .login-box.register .login-top {
@@ -2532,4 +2539,22 @@ section.login-area {
 
 label.container-label a {
     color: #565656;
+}
+
+section.login-area.register::before {
+    background: #F6F6F6;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box.register .site-logo {
+    margin-right: 25px;
+}
+
+.login-box.register .login-top .content {
+    margin-left: 1px;
 }

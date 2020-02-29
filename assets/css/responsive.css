@@ -41,6 +41,9 @@
     }
 }
 @media (max-width: 991px) {
+    .login-area.register::after {
+        display: none;
+    }
    .header-buttons .site-button {
         padding: 8px 20px;
         font-size: 14px;
