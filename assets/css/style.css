@@ -2428,8 +2428,7 @@ section.login-area {
     transition: .2s;
 }
 
-.login-form input:focus::placeholder,
-.login-form input:hover::placeholder {
+.login-form input:focus::placeholder {
     font-size: 10px;
     transform: translateY(-15px);
 }
@@ -2467,7 +2466,6 @@ section.login-area {
     font-weight: 800;
 }
 
-.login-form input:hover,
 .login-form input:focus {
     border-color: #7D7D7D;
 }
